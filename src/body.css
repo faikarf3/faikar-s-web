@@ -1,0 +1,35 @@
+.intro-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-content {
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+    margin: 20px;
+    border-style: outset;
+    border-color: black;
+    width: 200px;
+    text-decoration: none;
+    transition: transform 0.1s ease-in-out;
+    display: inline-block; /* Ensures transform applies properly */
+    color: white;
+    box-shadow: 0 6px 2px -2px black;
+}
+
+.body-content:visited {
+    color: white;
+}
+
+.body-content:hover {
+    transform: scale(1.05);
+}
